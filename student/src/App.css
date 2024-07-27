@@ -1,0 +1,58 @@
+.App {
+  padding: 20px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.main {
+  margin: 50px 250px;
+  padding: 50px 50px;
+  height: 100vh;
+  background-color: white;
+ 
+  border-radius: 10px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.upload.image {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.upload.image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.form-fields {
+  flex: 1;
+  max-width: 800px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Updated for gender container */
+.gender-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Adjust as needed */
+}
+
+.gender-container label {
+  margin-right: 15px;
+}
